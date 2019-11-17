@@ -38,7 +38,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index do |s|
+  array.each_with_index do |s, b|
     array << "s"
   end
 end
